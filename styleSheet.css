@@ -111,7 +111,7 @@ main {
   color: #2230d2;
 }
 
-.headline> div {
+.headline > div {
   width: 72vw;
   margin: 88px auto;
 }
@@ -147,4 +147,5 @@ main {
 
 .social-md a img {
   width: 15px;
-  height: auto; }
+  height: auto; 
+}
