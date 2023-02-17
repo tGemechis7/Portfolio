@@ -33,7 +33,7 @@ header {
 
 .logo {
   text-decoration: none;
-  font-family: poppins;
+  font-family: "poppins", sans-serif;
   font-weight: 700, 18px;
   text-align: center;
   font-style: bold;
@@ -66,6 +66,7 @@ header {
   background-color: white;
   border-bottom-left-radius: 50px;
   overflow: hidden;
+  
   background-position: 
     top 3% left, top 4% left, top 11% left 40%,
     top 10% left 42%, top 1% left 60%, top 6.5% right, top 13% right,
