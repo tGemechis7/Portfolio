@@ -21,7 +21,7 @@ const projectsList = [
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     imageLink: 'images/project2.png',
     technologies: ['html', 'css', 'javascript'],
-    role: 'Full Stack Dev',
+    role: 'Full Stack Devo',
     company: 'Facebook',
     year: '2015',
     sourceLink: '#',
