@@ -144,6 +144,6 @@ main {
     padding-top: 40px;
   }
 }
-
-.social-md a img { width: 15px;
+.social-md a img {
+  width: 15px;
 }
