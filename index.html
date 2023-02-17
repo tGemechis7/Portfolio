@@ -1,34 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="style/StyleSheet.css">
-    <title> portifilio mobile setup version first</title>
+    <title>Portfolio: finish mobile version</title>
+    <link rel="stylesheet" media="screen" href="styleSheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-        <header class="header-content">
-            <nav class="headernav-bar section-content">
-            <span><a href="#"  class="logo" class="common-font-family">My Logo</a></span> 
-            <span id="hamburgur-icon">&#9776;</span></nav>
-        </header>
-        <section class="wrap-content">
-                <h1 class="connect" class="common-font-family section-content">I’m Gemechis<br>
-                    Glad to see<br> You!</h1>
-                <p class="common-font-family section-content">
-                    I’m a software developer! I can help you any time build a product ,feature or website Look through some of my work and experience!<br>
-                     If you like what you see and have a project you need coded, don’t hestiate to contact me.
-                </p>
-                    <button type="button" id="btn-letconid" class="btn-letcon common-font-family section-content">LET’S CONNECT</button>
-                <ul class="social-md section-content">
-                    <li><a href="#"><img src="./images/twitter-icon.png"></a></li>
-                    <li><a href="#"><img src="./images/linkedin icon.png"></a></li>
-                    <li><a href="#"><img src="./images/m-icon.png"></a></li>
-                    <li><a href="#"><img src="./images/github-icon.png"></a></li>
-                    <li><a href="#"><img src="./images/clip-icon.png"></a></li>
-                </ul>
-              </section>
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav-item1"><a class="Mylogo" href="">My Logo</a></nav>
+            <nav class="nav-item2"></nav>
+            <nav class="nav-item3">
+                <img class="toggle" src="images/toggle.png" alt="toggle")">
+            </nav>
+            <div id="myNav" class="overlay">
+                <a class="closebtn"></a>
+                <div class="overlay-content">
+                    <a class="pop-nav" href="#">Portfolio</a>
+                    <a class="pop-nav" href="#">About</a>
+                    <a class="pop-nav" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+        <nav class="web-nav">
+            <div class="logo">
+                <a class="Mylogo" href="">My Logo</a>
+            </div>
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <h1 class="intro">I’m Gemechis Glad to see you!</h1>
+        <p class="intro1">
+            I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience!
+            If you like what you see and have a project you need coded, don’t hestiate to contact me.
+        </p>
+        <h3 class="intro2">LET’S CONNECT</h3>
+        <ul class="social">
+            <li class="social-icon twitter">
+                <a><img src="images/twitter.png" alt="twitter"></a>
+            </li>
+            <li class="social-icon linkedin">
+                <a><img src="images/linked.png" alt="linkedin"></a>
+            </li>
+            <li class="social-icon">
+                <a><img src="images/m.png" alt="m"></a>
+            </li>
+            <li class="social-icon github">
+                <a><img src="images/github.png" alt="github"></a>
+            </li>
+            <li class="social-icon fingers">
+                <a><img src="images/fingers.png" alt="fingers"></a>
+            </li>
+
+        </ul>
+    </section>
+    <section id="portfolio" class="project-section">
+
+    </section>
+    <section id="about" class="about">
+        <div class="left">
+            <h1 class="about-me"> About Myself</h1>
+            <p class="intro1">
+                Hello I’m a software developer! I can help you build a
+                product , feature or website Look through some of my
+                work and experience! If you like what you see and have
+                a project you need coded, don’t hestiate to contact me.
+            </p>
+            <h3 class="intro2">LET’S CONNECT</h3>
+            <ul class="social">
+                <li class="social-icon">
+                    <img src="images/github.png" alt="github">
+                </li>
+                <li class="social-icon">
+                    <img src="images/linked.png" alt="Linkedln">
+                </li>
+                <li class="social-icon">
+                    <img src="images/fingers.png" alt="two fingers">
+                </li>
+                <li class="social-icon">
+                    <img src="images/twitter.png" alt="twitter">
+                </li>
+
+                <li class="social-icon">
+                    <img src="images/m.png" alt="m">
+                </li>
+            </ul>
+            <div class="button-resume">
+                <button type="button" class="btn">
+                    Get my resume
+                </button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="lang">
+
+            </div>
+            <ul class="language-list">
+                <li class="lang">
+                    <p>
+                        Languages
+                    </p>
+                    <img class="imglang" src="images/arrowdown.png" alt="arrow">
+                </li>
+                <li class="lang-skill">
+                    <img src="images/js.png" alt="javascript">
+                    <p>
+                        JavaScript
+                    </p>
+                </li>
+                <li class="lang-skill">
+                    <img src="images/css.png" alt="html">
+                    <p>
+                        CSS
+                    </p>
+                </li>
+                <li class="lang-skill">
+                    <img src="images/html.png" alt="css">
+                    <p>
+                        HTML
+                    </p>
+                </li>
+                <li class="lang">
+                    <p>
+                        FrameWorks
+                    </p>
+                    <img class="imglang" src="images/arrowside.png" alt="">
+                </li>
+                <li class="line"></li>
+                <li class="lang">
+                    <p>
+                        Skills
+                    </p>
+                    <img class="imglang" src="images/arrowside.png" alt="">
+                </li>
+                <li class="line"></li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="contact-me">
+        <div class="bg-image">
+            <h1 class="contact-title">Contact me</h1>
+            <p class="contact-text">
+                If you have an application you are interested in developing, a feature
+                that you need built or a project that needs coding. I’d love to help
+                with it
+            </p>
+            <form action="https://formspree.io/f/xqkgeweb" method="POST" class="contact-form">
+                <input type="text" name="name" id="username" placeholder="Your Name" maxlength="30" required />
+                <input type="email" name="email" id="useremail" placeholder="Your Email" required />
+                <textarea name="message" id="usermessage" cols="30" rows="10" maxlength="500"
+                    placeholder="Write your message here" required></textarea>
+                    <p class="alert"></p>
+                <div class="button-resume btn-form">
+                    <button class="btn" type="submit">Get in touch</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="modal-example">
+        <div class="modal-head">
+          <h1 class="projectname"></h1>
+          <button type="button" class="closeModal"></button>
+        </div>
+        <div class="modal__body">
+          <div class="short_desc">
+            <h4 class="company"></h4>
+            <span></span>
+            <h4 class="role"></h4>
+            <span></span>
+            <h6 class="year"></h6>
+          </div>
+          <img src="#" alt="img" class="modal-img">
+          <div class="project-desc">
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatem pariatur modi rerum error
+              ea consequatur, excepturi eum maiores! Quo quibusdam culpa ratione.?Lorem ipsum dolor sit amet, consectetur
+              adipisicing elit.
+              !</p>
+            <div class="desc_btn">
+              <ul class="project__lang">
+                <li><a href="" class="lang1" title="html">html</a></li>
+                <li><a href="" class="lang1" title="css">css</a></li>
+                <li>
+                  <a href="#" class="lang1" title="javascript">javascript</a>
+                </li>
+              </ul>
+              <div class="final">
+                <button type="button" class="modal-btn">See live <i class="fa fa-external-link" aria-hidden="true"></i></button>
+                <button type="button" class="modal-btn">See source <i class="fa fa-github"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
