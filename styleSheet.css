@@ -29,6 +29,10 @@ header {
   color: #344563;
   vertical-align: center;
   fill: solid;
+  padding: 25px 130px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 .logo {
@@ -90,13 +94,6 @@ header {
   flex-direction: column;
   background-color: white;
   border-top-right-radius: 50px;
-}
-
-.top-bar {
-  padding: 25px 130px;
-  position: fixed;
-  width: 100%;
-  background-color: white;
 }
 
 main {
