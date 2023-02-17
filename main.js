@@ -17,8 +17,8 @@ const projectsList = [
     demoLink: '#',
   },
   {
-    name: 'Multi-post stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    name: '<h1>Multi-post stories<h1>',
+    description: '<p>A daily selection of privately personalized reads; no accounts or sign-ups required.<p>',
     imageLink: 'images/project2.png',
     technologies: ['html', 'css', 'javascript'],
     role: 'Full Stack Devo',
@@ -28,7 +28,7 @@ const projectsList = [
     demoLink: '#',
   },
   {
-    name: 'Facebook 360',
+    name: '<h1>Facebook 360 <h>',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. ',
     imageLink: 'images/project3.png',
     technologies: ['html', 'css', 'javascript'],
@@ -39,7 +39,7 @@ const projectsList = [
     demoLink: '#',
   },
   {
-    name: 'Uber Navigation',
+    name: '<h1>Uber Navigation<h1>',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     imageLink: 'images/project4.png',
     technologies: ['html', 'css', 'javascript'],
@@ -61,7 +61,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
   });
   workSections.innerHTML += `
       <div class='projects'>
-          <div class='img-web'>
+          <div class='img-web' >
             <img src='${projectsList[i].imageLink}' alt='work 1' class='' />
           </div>
           <div class='project-description'>
@@ -75,6 +75,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
             </div>
             <div class='project-details'>
               <p>
+              <body style="font-size:12px;"> HELLO WORLD </body></html>
                 ${projectsList[i].description}
               </p>
 
