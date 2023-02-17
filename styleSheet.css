@@ -20,7 +20,7 @@ header {
   justify-content: space-between;
   padding: 100px 12px;
   font-weight: 700;
-  font-family: poppins;
+  font-family: "poppins", sans-serif;
   font-style: medium;
   font-size: 15px;
   line-height: 20px;
@@ -54,7 +54,7 @@ header {
   fill: solid;
 }
 
-.nav-bar>ul {
+.nav-bar ul {
   list-style-type: none;
   cursor: pointer;
 }
@@ -66,11 +66,13 @@ header {
   background-color: white;
   border-bottom-left-radius: 50px;
   overflow: hidden;
-  background-position: top 3% left, top 4% left, top 11% left 40%,
+  background-position: 
+    top 3% left, top 4% left, top 11% left 40%,
     top 10% left 42%, top 1% left 60%, top 6.5% right, top 13% right,
     top 36% right 18%, bottom 27% right 12%, bottom 24% right 14%,
     bottom 8% left 16%, bottom 5.5% right 32%, bottom 3% right 37%;
-  background-repeat: no-repeat;
+  background-repeat: 
+    no-repeat;
 }
 
 .headline-text {
