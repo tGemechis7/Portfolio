@@ -21,7 +21,7 @@ body {
 }
 
 .header-section {
-  grid-template-columns: auto;
+  grid-column: 1/-1;
   background-color: white;
 }
 
@@ -31,8 +31,14 @@ body {
 }
 
 .aboutmyself-section {
-  grid-column: 1/-1;
-  background: #f7f7f9;
+  width: 100%;
+  background-image: url('images/aboutmyself.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: white;
+  padding-top: 35px;
+  margin-top: 0;
+  border-top-right-radius: 35px;
 }
 
 .introduction-section {
@@ -123,6 +129,10 @@ body {
   text-decoration: none;
 }
 
+#work-content {
+  margin-top: 15px;
+}
+
 #aboutmyself-container,
 #work-container {
   display: flex;
@@ -133,13 +143,15 @@ body {
   margin: 8px;
   margin-right: 30px;
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 35px;
+  padding-top: 15px;
+  margin-bottom: 15px;
 }
 
 .aboutmyself-content,
 .work-content {
   background-color: white;
-  width: 100%;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -147,7 +159,6 @@ body {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-top: 100px;
-  padding: 20px;
 }
 
 .img-content {
@@ -162,7 +173,6 @@ body {
 
 .my-skill li {
   float: left;
-  margin: 6px;
 }
 
 .work-role-list {
@@ -222,6 +232,7 @@ body {
   background: #ebebff;
   border: none;
   border-radius: 8px;
+  margin: 6px;
 }
 
 .p-more-information {
@@ -236,6 +247,7 @@ body {
   font-size: 17px;
   text-align: center;
   color: #396df2;
+  width: 100%;
 }
 
 .prog-lang {
@@ -287,66 +299,8 @@ body {
   vertical-align: middle;
 }
 
-.job-experience {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 0.5px solid #253858;
-}
-
-.job-experience-content {
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.aboutmyself-text {
-  width: 100%;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  color: #fff;
-  margin-top: 30px;
-}
-
-.aboutmyself-desc {
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #ebebff;
-}
-
-.aboutmyself-input {
-  margin-top: 20px;
-  padding: 15px;
-  width: 100%;
-}
-
-.input-bg {
-  background: #fff;
-  border: 1px solid #cfd8dc;
-}
-
-.aboutmyself-message {
-  margin-top: 20px;
-  height: 200px;
-  padding: 7px;
-  width: 100%;
-}
-
-.aboutmyself-getintouch {
-  margin-top: 20px;
-  text-align: left;
-  padding: 10px;
-  font-weight: 500;
-  font-size: 17px;
-  color: #6070ff;
-}
-
 .btn-action-event:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .p-more-information:hover {
