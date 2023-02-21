@@ -28,9 +28,12 @@ body {
 .work-section {
   grid-column: 1/-1;
   background: #f7f7f9;
+  padding-bottom: 35px;
 }
 
 .aboutmyself-section {
+  grid-column: 1/-1;
+  background: #f7f7f9;
   width: 100%;
   background-image: url('images/aboutmyself.png');
   background-repeat: no-repeat;
@@ -39,6 +42,8 @@ body {
   padding-top: 35px;
   margin-top: 0;
   border-top-right-radius: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .introduction-section {
@@ -93,6 +98,7 @@ body {
   margin: 8px;
   margin-right: 30px;
   margin-left: 20px;
+  padding-bottom: 10px;
 }
 
 .intro-name {
@@ -139,16 +145,14 @@ body {
   flex-direction: column;
   flex-wrap: hidden;
   align-items: flex-start;
-  justify-content: center;
-  margin: 8px;
-  margin-right: 30px;
+  margin: 800px;
+  margin-right: 20px;
   margin-left: 20px;
-  margin-top: 35px;
-  padding-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 0;
+  padding-top: 35px;
+  margin-bottom: 35px;
 }
 
-.aboutmyself-content,
 .work-content {
   background-color: white;
   padding-top: 15px;
@@ -158,11 +162,18 @@ body {
   justify-content: center;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin-top: 100px;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 35px;
+  margin-left: 0;
 }
 
-.img-content {
+.img-content img {
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 5px;
 }
 
 .work-role {
@@ -179,7 +190,8 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  margin: 6px;
+  margin-right: 1px;
+  margin-left: 0;
 }
 
 .work-title {
@@ -215,12 +227,12 @@ body {
 }
 
 .project-description {
-  width: 100%;
   height: 76px;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  margin-right: 10px;
 }
 
 .my-skill button {
@@ -238,8 +250,11 @@ body {
 .p-more-information {
   background-color: #fff;
   border: 1px solid #396df2;
+  border-radius: 10px;
   margin: 4px;
   padding: 10px;
+  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .moresee-link {
@@ -247,7 +262,6 @@ body {
   font-size: 17px;
   text-align: center;
   color: #396df2;
-  width: 100%;
 }
 
 .prog-lang {
@@ -299,7 +313,7 @@ body {
   vertical-align: middle;
 }
 
-.btn-action-event:hover {
+.btn-action-event :hover {
   text-decoration: none;
 }
 
@@ -313,6 +327,21 @@ body {
   columns: #253858;
 }
 
-.social-icon:hover {
+.social-icon :hover {
   border: 1px solid #253858;
+}
+
+.job-experience {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid #253858;
+}
+
+.job-experience-content {
+  font-weight: 500;
+  font-size: 20px;
 }
