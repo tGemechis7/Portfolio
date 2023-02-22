@@ -28,22 +28,11 @@ body {
 .work-section {
   grid-column: 1/-1;
   background: #f7f7f9;
-  padding-bottom: 35px;
 }
 
 .aboutmyself-section {
   grid-column: 1/-1;
   background: #f7f7f9;
-  width: 100%;
-  background-image: url('images/aboutmyself.png');
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-color: white;
-  padding-top: 35px;
-  margin-top: 0;
-  border-top-right-radius: 35px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .introduction-section {
@@ -98,7 +87,6 @@ body {
   margin: 8px;
   margin-right: 30px;
   margin-left: 20px;
-  padding-bottom: 10px;
 }
 
 .intro-name {
@@ -135,45 +123,29 @@ body {
   text-decoration: none;
 }
 
-#work-content {
-  margin-top: 15px;
-}
-
-#aboutmyself-container,
-#work-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: hidden;
-  align-items: flex-start;
-  margin: 800px;
+.work-container {
+  display: grid;
+  grid-column-gap: 11px;
+  grid-template-columns: repeat(1, 1fr);
   margin-right: 20px;
   margin-left: 20px;
-  margin-top: 0;
-  padding-top: 35px;
-  margin-bottom: 35px;
 }
 
 .work-content {
   background-color: white;
-  padding-top: 15px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  margin-top: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 35px;
-  margin-left: 0;
+  margin-top: 100px;
+  padding: 20px;
 }
 
-.img-content img {
+.img-content {
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-  margin-right: 5px;
 }
 
 .work-role {
@@ -184,14 +156,14 @@ body {
 
 .my-skill li {
   float: left;
+  margin: 6px;
 }
 
 .work-role-list {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  margin-right: 1px;
-  margin-left: 0;
+  margin: 6px;
 }
 
 .work-title {
@@ -211,7 +183,6 @@ body {
   width: 10px;
   height: 10px;
   background: #c1c7d0;
-  margin: 6.5px 22px;
   border-radius: 50%;
 }
 
@@ -232,7 +203,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-  margin-right: 10px;
+  padding-right: 70px;
 }
 
 .my-skill button {
@@ -244,17 +215,14 @@ body {
   background: #ebebff;
   border: none;
   border-radius: 8px;
-  margin: 7px;
 }
 
 .p-more-information {
   background-color: #fff;
   border: 1px solid #396df2;
-  border-radius: 10px;
   margin: 4px;
   padding: 10px;
-  margin-bottom: 20px;
-  margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .moresee-link {
@@ -313,24 +281,6 @@ body {
   vertical-align: middle;
 }
 
-.btn-action-event :hover {
-  text-decoration: none;
-}
-
-.p-more-information:hover {
-  border: 2px solid #396df2;
-  color: #253858;
-}
-
-.lang-content:hover {
-  border: 2px solid #396df2;
-  columns: #253858;
-}
-
-.social-icon :hover {
-  border: 1px solid #253858;
-}
-
 .job-experience {
   width: 100%;
   padding: 20px;
@@ -342,6 +292,42 @@ body {
 }
 
 .job-experience-content {
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 20px;
+}
+
+.btn-action-event:hover {
+  text-decoration: none;
+}
+
+.p-more-information:hover {
+  border: 2px solid #396df2;
+  color: #253858;
+  background-color: blue;
+}
+
+.lang-content:hover {
+  border: 2px solid #396df2;
+  columns: #253858;
+}
+
+.social-icon:hover {
+  border: 1px solid #253858;
+}
+
+#aboutmyself-container {
+  background-image: url('images/aboutmyself.png');
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+  padding-top: 80px;
+  border-top-right-radius: 50px;
 }
