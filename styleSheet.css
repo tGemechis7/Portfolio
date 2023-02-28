@@ -332,3 +332,111 @@ body {
   padding-top: 80px;
   border-top-right-radius: 50px;
 }
+
+.about-me {
+  display: flex;
+  background-image: url('images/contact-bg.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+.mycontact-input {
+  background-color: #fff;
+}
+
+
+.aboutmyself-text {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 87%;
+  font-style: bold;
+  color: #fff;
+  padding-top: 100px;
+  margin-left: 30px;
+  padding-left: 50px;
+}
+
+.aboutmyself-desc {
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  color: #ebebff;
+  line-height: 28px;
+  margin: 2px;
+  padding-bottom: 20px;
+}
+
+.contact-form {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.name-input, .email-input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-right: 85px;
+  padding-left: 20px;
+}
+.name-input:hover {
+  transform: scale(1.2);
+} 
+.email-input:hover{
+transform: scale(1.2);
+}
+.aboutmyself-getintouch:hover{
+transform: scale(1.1);
+}
+/* .email-input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-right: 85px;
+  padding-left: 20px;
+} */
+.message-input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+} 
+.message-input:hover {
+  transform: scale(1.2);
+} 
+
+
+.aboutmyself-getintouch {
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6070ff;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-right: 20px;
+  margin-left: 70px;
+  border-style: none;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  background-color: blue;
+}
+
+.footer {
+  background-color: grey;
+  width: 100%;
+}
+
