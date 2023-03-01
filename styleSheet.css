@@ -32,7 +32,7 @@ body {
 
 .aboutmyself-section {
   grid-column: 1/-1;
-  background: #f7f7f9;
+  background-color: white;
 }
 
 .introduction-section {
@@ -329,15 +329,20 @@ body {
   padding-right: 20px;
   margin-right: 20px;
   padding-top: 80px;
-  border-top-right-radius: 50px;
+  border-top-right-radius: 500px;
+  border-style: none;
 }
 
 .about-me {
   display: flex;
-  background-image: url('images/contact-bg.png');
+  background-image: url('images/contact-f.png');
+ 
+  background-size: 58%;
+  background-position-y: 8em;
+  border-top-left-radius: 15%;
+  background-position: top 10px right;
+  background-color: #6070FF;
   background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: cover;
   width: 100%;
   flex-direction: column;
   justify-content: flex-start;
@@ -355,10 +360,12 @@ body {
   font-size: 40px;
   line-height: 87%;
   font-style: bold;
+  text-align: center;
   color: #fff;
-  padding-top: 100px;
+  padding-top: 90px;
   margin-left: 30px;
   padding-left: 50px;
+  margin-bottom: 10px;
 }
 
 .aboutmyself-desc {
@@ -369,28 +376,34 @@ body {
   text-align: center;
   color: #ebebff;
   line-height: 28px;
+  text-align: center;
+  width: 327px;
+  height:102px;
   margin-left: 24px;
   margin-right: 24px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 67px;
 }
 
 .contact-form {
-  margin-left: 50px;
-  margin-right: 50px;
-  padding-bottom: 20px;
   justify-content: space-between;
 }
 
 .name-input,
 .email-input {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  padding-right: 85px;
-  padding-left: 20px;
+  height: 48px;
+  width:327px;
+  font-size: 17px;
+  line-height: 78%;
+  font-style: normal;
+  margin-top: 18px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border-radius: 8px;
+  border-style: none;
+  padding-left:16px ;
+  
 }
+
 
 .name-input:hover {
   transform: scale(1.2);
@@ -401,11 +414,15 @@ body {
 }
 
 .message-input {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  padding-right: 20px;
-  padding-left: 20px;
+  height: 170px;
+  width:327px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 18px;
+  padding-left: 15px;
+  padding-top: 20px;
+  border-radius: 8px;
+
 }
 
 .message-input:hover {
@@ -413,20 +430,35 @@ body {
 }
 
 .aboutmyself-getintouch {
-  margin-top: 20px;
   text-align: left;
   padding: 10px;
   font-weight: 500;
   font-size: 17px;
   color: #6070ff;
-  border-radius: 10px;
-  padding-left: 25px;
-  padding-right: 20px;
-  margin-left: 70px;
+  border-radius: 8px;
+  margin-left: 24px;
   border-style: none;
+  margin-top: 20px;
+ padding-left: 24px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  padding-right: 30px;
+ 
 }
-
 .btn-link:hover {
   text-decoration: none;
   background-color: blue;
+}
+
+
+hr {
+  background-color: black;
+  height: 5px;
+  width:134px;
+  border: 1px solid #0D151E;
+  margin-left: 100px;
+  margin-top: 32px;
+  padding: 0;
+  border-radius: 10px;
+  margin-bottom: 8px;
 }
