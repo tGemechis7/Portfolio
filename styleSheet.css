@@ -326,7 +326,6 @@ header {
 .about-container {
   display: flex;
   align-items: flex-start;
- 
   width: 100%;
   margin-left: 0;
 }
