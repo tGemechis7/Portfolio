@@ -47,8 +47,10 @@ body {
 
 .fsw-7 {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.37px;
+  color: #091e42;
 }
 
 .fw-5 {
@@ -186,6 +188,7 @@ header {
   align-items: center;
   border-bottom-left-radius: 15%;
   margin-bottom: 40px;
+  width: 100%;
 }
 
 .intro-container {
@@ -317,12 +320,15 @@ header {
 .grid-item-3 {
   border-top-right-radius: 50px;
   margin: 30px;
+  width: 100%;
 }
 
 .about-container {
   display: flex;
   align-items: flex-start;
-  margin: 30px;
+ 
+  width: 100%;
+  margin-left: 0;
 }
 
 .about-myself {
@@ -384,19 +390,20 @@ header {
 }
 
 .grid-item-4 {
-  min-width: 375px;
+  width: 100%;
   border-top-left-radius: 120px;
   min-height: 100vh;
   background-color: #6070ff;
   background-image: url('images/cont-bg-f.png');
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 98%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-bottom: 0;
+  background-position-y: 2em;
 }
 
 .contact-container {
