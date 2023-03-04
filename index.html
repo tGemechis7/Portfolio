@@ -14,30 +14,31 @@
   </head>
   <body>
     <header>
-      <nav class="header-nav">
+      <nav class="header-nav" id="header-nav">
         <ul class="navbar-logo">
-          <li><a class="logo-link txt2">My Logo</a></li>
+          <li><a class="logo-link txt2" id="nav-logo">My Logo</a></li>
         </ul>
         <ul class="navbar-list">
-          <li class="mobnavbar-link"><a class="logo-link txt2">&#9776;</a></li>
+          <li class="mobnavbar-link"><a id="nav-toggle"class="logo-link txt2">&#9776;</a></li>
           <li class="desknavbar-link"><a class="navbar-link">Portfolio</a></li>
           <li class="desknavbar-link"><a class="navbar-link">About</a></li>
           <li class="desknavbar-link"><a class="navbar-link">Contact</a></li>
         </ul>
       </nav>
    </header>
+
     <main class="grid-container">
       <section class="grid-item grid-item-1 bg-white">
         <div class="intro-container">
           <h1 class="fsw-7">I’m Gemechis <br>Glad to see you!</h1>
-          <p class="fs-20 fw-4">
+          <p  class="fs-20 fw-4">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
             contact me.
           </p>
           <span> 
-            <br /><a href="#" class="btn-action fw-5 fs-16">LET’S CONNECT</a> 
+            <br /><a href="#"class="btn-action fw-5 fs-16">LET’S CONNECT</a> 
             <br>
           </span>
           <ul class="list-social">
@@ -89,7 +90,7 @@
             />
           </div>
           <div class="section-content mall-30">
-            <h2 class="fsw-7 ">Tonic</h2>
+            <h2 class="fsw-7">Tonic</h2>
             <ul class="flexr-default">
               <li class="fw-5 fs-18 txtd list-title">CANOPY
               </li>
@@ -98,22 +99,22 @@
                 <a class="fw-4 fs-18 txt6 work-link">Back End</a>
               </li>
               <li class="flex-list">
-                <div class="dot-icon"></div>
+                <div class="dot-icon"id="role-dot"></div>
                 <a class="fw-4 fs-18 txt6 work-link">2023</a>
               </li>
             </ul>
-            <p class="fw-4 fs-16 txtd mt-30">
+            <p class="fw-4 fs-16 txtd mt-30" id="project-description">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="flexr-default mt-30">
+            <ul class="flexr-default mt-30" id="my-skill">
               <li class="lang-list">
                 <a class="fw-5 fs-12 txt2 lang-link">Html</a>
               </li>
               <li><a class="fw-5 fs-12 txt2 lang-link">Css</a></li>
               <li><a class="fw-5 fs-12 txt2 lang-link">Javascript</a></li>
             </ul>
-            <div class="mt-30">
+            <div class="mt-30" id="p-more-information">
               <button class="btn-action btn-more txt5 fw-5 fs-17">
                 See Project
               </button>
@@ -122,8 +123,8 @@
         </div>
         <div class="work-container bg-white">
           <div class="section-content mall-30">
-            <h2 class="fsw-7">Multi-Post Stories</h2>
-            <ul class="flexr-default work-list">
+            <h2 id="work-title" class="fsw-7">Multi-Post Stories</h2>
+            <ul class="flexr-default work-list" id="work-role">
               <li class="fw-5 fs-18 txtd list-title">FACEBOOK
               </li>
               <li class="flex-list">
@@ -249,6 +250,7 @@
           </div>
         </div>
       </section>
+
       <section class="grid-item grid-item-3 bg-white">
         <span class="about-container">
           <div class="about-myself mall-30">
@@ -315,7 +317,7 @@
           <div class="about-myexperience">
             <ul class="experience-list mlr-20">
               <li><a class="fw-5 fs-20 txtd">Languages</a></li><li><div class="upward-icon fw-5 fs-40 txtd">&#62;</div></li></ul>
-              <ul class="exper-lang">
+              <ul class="exper-lang" >
                 <li class="exper-lang-list">
                   <a class="fw-5 fs-20 txtd exper-link">
                     <img src="images/js.png" class="lang-img" alt="Javascript icon">
@@ -334,8 +336,8 @@
                 </a>
                 </li>
             </ul>
-            <ul class="experience-list mlr-20"><li><a class="fw-5 fs-20 txtd">Frameworks</a></li><li><a class="fw-5 fs-40 txtd">&#62;</a></li></ul>
-            <div class="list-hozin"></div>
+            <ul class="experience-list mlr-20"id="lang-link-img"><li><a class="fw-5 fs-20 txtd">Frameworks</a></li><li><a class="fw-5 fs-40 txtd">&#62;</a></li></ul>
+           
             <ul class="experience-list mlr-20"><li><a class="fw-5 fs-20 txtd">Skills</a></li><li><a class="fw-5 fs-40 txtd">&#62;</a></li></ul>
             <div class="list-hozin"></div>
         </div>
@@ -343,8 +345,8 @@
       </section>
       <section class="grid-item grid-item-4 bg-white">
         <div class="contact-container">
-          <h1 class="contact-content1 fsw-7 txtw mall-30">Contact Me</h1>
-          <p class="contact-content2 contact-title mlr-20">
+          <h1 class="contact-content fsw-7 txtw mall-30">Contact Me</h1>
+          <p class="contact-content contact-title mlr-20">
             If you have an application you are interested in developing, 
             a feature that you need built or a project that needs coding.
              I’d love to help with it 
@@ -355,10 +357,10 @@
               <textarea placeholder="Write your message here..." class="input-bg fw-4 fs-17" cols="60" rows="7" name="message" maxlength="500" required></textarea>
               <input type="submit" class="btn-more" value="Get in touch" name="buttonsubmit">
               </form>
-          </form>
-          <div class="footer"><br><div class="end-page"></div></div>
+         <hr >
         </div>
       </section>
+    
     </main>
   </body>
 </html>
