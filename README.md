@@ -1,11 +1,5 @@
-# Portifilio mobile setup first version
-<a name="readme-top"></a>
+# Portflio-Desktop-version
 
-<div align="center">
-  <h3><b>Hello Microverse</b></h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -31,38 +25,37 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [portflio-Desktop-version] <a name="Portflio-Desktop-version"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[Hello Microverse]** is a git-github based warm-up project.
 
-## 🛠 Built With <a name="built-with">`HTML/CSS` and `Markdown`</a>
+**[Portflio-Desktop-version]** is a git-github based warm-up project.
 
-### Tech Stack <a name="tech-stack">`HTML/CSS` with `Nodejs`</a>
+## 🛠 Built With <a name="built-with">`HTML5, CSS,` and `Formspree`</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+### Tech Stack <a name="tech-stack">`HTML5/CSS`</a>
 
-<details>
+
+
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.w3.org/standards/webdesign/htmlcss">HTML-CSS</a></li>
   </ul>
 
   <ul>
-    <li><a href="https://nodejs.org/">Nodejs</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/download/">Bootstrap5</a></li>
   </ul>
 </details>
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 
-<!-- > Describe between 1-3 key features of the application. -->
-
 - **[Clean and Simple Static Webpages]**
 - **[Only Raw HTML & CSS]**
-- **[Nodejs for development tools]**
+- **[Used bootstrap CDN to use some icon]**
+- **[A figma template used to create the design]**
+- **[Flexbox and Grid used to make pagelayout]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,20 +73,20 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Clone this repository and start making changes. And forget the PR!
+> Clone this repository to your local folder
 
-To get a local copy up and running, follow these steps.
-
+To get a local copy up, use the following command.
+cammonds: 
 ### Prerequisites
 
 In order to run this project you need:
 
-
 Check Git is already installed and working:
 
 ```sh
- git --version
- node --version
+ .git --version
+ .node --version
+ .editor. VS code and latest text editor possible
 ```
 It should not show you any error. And should return the version info.
 
@@ -102,11 +95,10 @@ It should not show you any error. And should return the version info.
 
 Clone this repository to your desired folder:
 
-
 Execute this:
 
 ```sh
-  git clone git@github.com:mahabubx7/Hello-Microverse.git
+  git https://github.com/tGemechis7/Portfolio.git
 ```
 
 
@@ -120,6 +112,7 @@ Install Dependencies:
 ```sh
   cd your-project-folder
   npm install
+  Sign up on formspree.oi
 ```
 
 
@@ -130,7 +123,7 @@ To run the project, execute the following command:
 
 Execute this:
 ```sh
-  npm start
+  To run the project,using Live Sever on VSCode or opend index.html directly with latest browser
 ```
 
 
@@ -142,7 +135,7 @@ To run tests, run the following command:
 Testing with Lint-checks:
 
 ```sh
-  npm test
+  npx stylelint "**/*.{css,scss}"
 ```
 
 
@@ -156,13 +149,13 @@ Deployed in `Github Pages`.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- Mention all of the collaborators of this project-->
 
 👤 **Mahabub**
 
-- GitHub: [@mahabubx7](https://github.com/mahabubx7)
-- Twitter: [@mahabub__7](https://twitter.com/mahabub__7)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mahabubx7)
+- GitHub: [@tgemechis7](https://github.com/tGemechis7)
+- Twitter: [@tgemechis7](https://twitter.com/tgemechi7)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gemechis-tamiru-3b3593176/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,9 +174,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+
+If you like my project give me 5 star 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,9 +184,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+
+I would like to thanks microvesre team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,11 +194,9 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **[Is this project for Microverse program?]**
 
-  - [Yes, it is. This is the first week first project called `Hello Microverse`]
+  - [Yes, it is. please try to reach out them]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
