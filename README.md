@@ -31,17 +31,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="Portfolio-finish-mobile-version"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[Hello Microverse]** is a git-github based warm-up project.
 
-## 🛠 Built With <a name="built-with">`HTML/CSS` and `Markdown`</a>
+## 🛠 Built With <a name="built-with">`HTML/CSS` and `Bootstrap 5`</a>
 
 ### Tech Stack <a name="tech-stack">`HTML/CSS` with `Nodejs`</a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+
 
 <details>
   <summary>Client</summary>
@@ -50,7 +49,7 @@
   </ul>
 
   <ul>
-    <li><a href="https://nodejs.org/">Nodejs</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5</a></li>
   </ul>
 </details>
 
@@ -58,11 +57,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-<!-- > Describe between 1-3 key features of the application. -->
-
 - **[Clean and Simple Static Webpages]**
-- **[Only Raw HTML & CSS]**
-- **[Nodejs for development tools]**
+- **[Only HTML & CSS]**
+- **[Boostrap 5 for development]**
+- **[fontawesome for insert some icons]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,7 +70,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://mahabubx7.github.io/Hello-Microverse/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +78,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Clone this repository and start making changes. And forget the PR!
+> Clone this repository to your local machine first. 
 
 To get a local copy up and running, follow these steps.
 
@@ -89,13 +87,14 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 
-Check Git is already installed and working:
+Check Git is already installed and working on your machine:
 
 ```sh
  git --version
+ Vs code---text editor
  node --version
 ```
-It should not show you any error. And should return the version info.
+It should return the right information.
 
 
 ### Setup
@@ -106,7 +105,7 @@ Clone this repository to your desired folder:
 Execute this:
 
 ```sh
-  git clone git@github.com:mahabubx7/Hello-Microverse.git
+ command:  git clone https://github.com/tGemechis7/Portfolio.git
 ```
 
 
@@ -118,7 +117,7 @@ Install this project with:
 Install Dependencies:
 
 ```sh
-  cd your-project-folder
+  change directories with cd your-project-folder
   npm install
 ```
 
@@ -142,7 +141,7 @@ To run tests, run the following command:
 Testing with Lint-checks:
 
 ```sh
-  npm test
+  npx stylelint "**/*.{css,scss}"
 ```
 
 
@@ -160,9 +159,9 @@ Deployed in `Github Pages`.
 
 👤 **Mahabub**
 
-- GitHub: [@mahabubx7](https://github.com/mahabubx7)
-- Twitter: [@mahabub__7](https://twitter.com/mahabub__7)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/mahabubx7)
+- GitHub: [@tgemchis7](https://github.com/tgemechis7)
+- Twitter: [@tgemechis7](https://twitter.com/tgemechis7)
+- LinkedIn: [@tgemechis7](https://github.com/tGemechis7)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,9 +180,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project rate me
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,9 +189,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+
+I would like to thank microverse team 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,11 +199,10 @@ I would like to thank...
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Is this project for Microverse program?]**
 
-  - [Yes, it is. This is the first week first project called `Hello Microverse`]
+  - [Yes, it is. This is the first week first project called `portfilio-setup-finish`]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
