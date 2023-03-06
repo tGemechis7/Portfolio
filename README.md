@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Portflio-Mobile-version
+=======
+# Portflio-Desktop-version
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 
 
 # 📗 Table of Contents
@@ -25,13 +29,21 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+<<<<<<< HEAD
 # 📖 [portflio-mobile-version] <a name="Portflio-mobile-version"></a>
+=======
+# 📖 [portflio-Desktop-version] <a name="Portflio-Desktop-version"></a>
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 
 
 
 **[Portflio-Desktop-version]** is a git-github based warm-up project.
 
+<<<<<<< HEAD
 ## 🛠 Built With <a name="built-with">`HTML5, CSS,` and `Formspree.io`</a>
+=======
+## 🛠 Built With <a name="built-with">`HTML5, CSS,` and `Formspree`</a>
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 
 ### Tech Stack <a name="tech-stack">`HTML5/CSS`</a>
 
@@ -52,7 +64,11 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Clean and Simple Static Webpages]**
+<<<<<<< HEAD
 - **[Only HTML & CSS]**
+=======
+- **[Only Raw HTML & CSS]**
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 - **[Used bootstrap CDN to use some icon]**
 - **[A figma template used to create the design]**
 - **[Flexbox and Grid used to make pagelayout]**
@@ -73,9 +89,16 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+<<<<<<< HEAD
 > Clone this repository to your local machine
 
 To get a local copy up on your machine, use the following prerequisites.
+=======
+> Clone this repository to your local folder
+
+To get a local copy up, use the following command.
+cammonds: 
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 ### Prerequisites
 
 In order to run this project you need:
@@ -85,7 +108,11 @@ Check Git is already installed and working:
 ```sh
  .git --version
  .node --version
+<<<<<<< HEAD
  .text editor. VS code and latest text editor possible
+=======
+ .editor. VS code and latest text editor possible
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 ```
 It should return the version info with no error.
 
@@ -122,7 +149,11 @@ To run the project, execute the following command:
 
 Execute this:
 ```sh
+<<<<<<< HEAD
   To run the project,using Live Sever on VSCode or opend index.html directly with browser
+=======
+  To run the project,using Live Sever on VSCode or opend index.html directly with latest browser
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 ```
 
 
@@ -154,7 +185,11 @@ Deployed in `Github Pages`.
 
 - GitHub: [@tgemechis7](https://github.com/tGemechis7)
 - Twitter: [@tgemechis7](https://twitter.com/tgemechi7)
+<<<<<<< HEAD
 - LinkedIn: [@gemechis7](https://www.linkedin.com/in/gemechis7)
+=======
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gemechis-tamiru-3b3593176/)
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -175,7 +210,11 @@ Feel free to check the [issues page](../../issues/).
 
 
 
+<<<<<<< HEAD
 If you like my project give rate me 
+=======
+If you like my project give me 5 star 
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,7 +234,11 @@ I would like to thanks microvesre team
 
 - **[Is this project for Microverse program?]**
 
+<<<<<<< HEAD
   - [Yes, it is. please try to reach out them if you have any question]
+=======
+  - [Yes, it is. please try to reach out them]
+>>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
