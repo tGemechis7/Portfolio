@@ -1,11 +1,5 @@
-# Portifilio mobile setup first version
-<a name="readme-top"></a>
+# Portflio-Mobile-version
 
-<div align="center">
-  <h3><b>Hello Microverse</b></h3>
-</div>
-
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -31,36 +25,37 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="Portfolio-finish-mobile-version"></a>
-
-
-**[Hello Microverse]** is a git-github based warm-up project.
-
-## 🛠 Built With <a name="built-with">`HTML/CSS` and `Bootstrap 5`</a>
-
-### Tech Stack <a name="tech-stack">`HTML/CSS` with `Nodejs`</a>
+# 📖 [portflio-mobile-version] <a name="Portflio-mobile-version"></a>
 
 
 
-<details>
+**[Portflio-Desktop-version]** is a git-github based warm-up project.
+
+## 🛠 Built With <a name="built-with">`HTML5, CSS,` and `Formspree.io`</a>
+
+### Tech Stack <a name="tech-stack">`HTML5/CSS`</a>
+
+
+
   <summary>Client</summary>
   <ul>
     <li><a href="https://www.w3.org/standards/webdesign/htmlcss">HTML-CSS</a></li>
   </ul>
 
   <ul>
-    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/download/">Bootstrap5</a></li>
   </ul>
 </details>
 
-<!-- Features -->
+
 
 ### Key Features <a name="key-features"></a>
 
 - **[Clean and Simple Static Webpages]**
 - **[Only HTML & CSS]**
-- **[Boostrap 5 for development]**
-- **[fontawesome for insert some icons]**
+- **[Used bootstrap CDN to use some icon]**
+- **[A figma template used to create the design]**
+- **[Flexbox and Grid used to make pagelayout]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +65,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://tgemechis7.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,34 +73,31 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Clone this repository to your local machine first. 
+> Clone this repository to your local machine
 
-To get a local copy up and running, follow these steps.
-
+To get a local copy up on your machine, use the following prerequisites.
 ### Prerequisites
 
 In order to run this project you need:
 
-
-Check Git is already installed and working on your machine:
+Check Git is already installed and working:
 
 ```sh
- git --version
- Vs code---text editor
- node --version
+ .git --version
+ .node --version
+ .text editor. VS code and latest text editor possible
 ```
-It should return the right information.
+It should return the version info with no error.
 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-
 Execute this:
 
 ```sh
- command:  git clone https://github.com/tGemechis7/Portfolio.git
+  git https://github.com/tGemechis7/Portfolio.git
 ```
 
 
@@ -117,8 +109,9 @@ Install this project with:
 Install Dependencies:
 
 ```sh
-  change directories with cd your-project-folder
+  cd your-project-folder
   npm install
+  Sign up on formspree.oi
 ```
 
 
@@ -129,7 +122,7 @@ To run the project, execute the following command:
 
 Execute this:
 ```sh
-  npm start
+  To run the project,using Live Sever on VSCode or opend index.html directly with browser
 ```
 
 
@@ -155,13 +148,13 @@ Deployed in `Github Pages`.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+<!-- Mention all of the collaborators of this project-->
 
 👤 **Mahabub**
 
-- GitHub: [@tgemchis7](https://github.com/tgemechis7)
-- Twitter: [@tgemechis7](https://twitter.com/tgemechis7)
-- LinkedIn: [@tgemechis7](https://github.com/tGemechis7)
+- GitHub: [@tgemechis7](https://github.com/tGemechis7)
+- Twitter: [@tgemechis7](https://twitter.com/tgemechi7)
+- LinkedIn: [@gemechis7](https://www.linkedin.com/in/gemechis7)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,7 +174,8 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project rate me
+
+If you like my project give rate me 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +185,7 @@ If you like this project rate me
 
 
 
-I would like to thank microverse team 
+I would like to thanks microvesre team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,10 +193,9 @@ I would like to thank microverse team
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-
 - **[Is this project for Microverse program?]**
 
-  - [Yes, it is. This is the first week first project called `portfilio-setup-finish`]
+  - [Yes, it is. please try to reach out them if you have any question]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
