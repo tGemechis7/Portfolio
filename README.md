@@ -1,9 +1,13 @@
-<<<<<<< HEAD
-# Portflio-Mobile-version
-=======
-# Portflio-Desktop-version
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
+<a name="readme-top"></a>
 
+<div align="center">
+  <br/>
+
+  <h3><b>Portfolio Finish Mobile Version README</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -11,186 +15,122 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+<!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
-
 <!-- PROJECT DESCRIPTION -->
 
-<<<<<<< HEAD
-# 📖 [portflio-mobile-version] <a name="Portflio-mobile-version"></a>
-=======
-# 📖 [portflio-Desktop-version] <a name="Portflio-Desktop-version"></a>
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
+# 📖 [Portfolio Finish Mobile-Version] <a name="about-project"></a>
+
+The aim of this project is to build a simple personal portfolio web page while understanding how to parse a Figma design and flexbox to create a UI and usse the images and backgrounds to enhance the look of the website.
+
+## 🛠 Built With <a name="built-with"></a>
+
+- HTML & CSS 
+- Git, Github and Visual Studio Code
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Tech Stack <a name="tech-stack"></a>
 
 
-
-**[Portflio-Desktop-version]** is a git-github based warm-up project.
-
-<<<<<<< HEAD
-## 🛠 Built With <a name="built-with">`HTML5, CSS,` and `Formspree.io`</a>
-=======
-## 🛠 Built With <a name="built-with">`HTML5, CSS,` and `Formspree`</a>
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
-
-### Tech Stack <a name="tech-stack">`HTML5/CSS`</a>
-
-
-
+<details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3.org/standards/webdesign/htmlcss">HTML-CSS</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/download/">Bootstrap5</a></li>
+    <li><a href="https://git-scm.com/">Git</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://github.com/">Github</a></li>
+  </ul>
+</details>
 
+<details>
+<summary>Template</summary>
+  <ul>
+    <li><a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A122&t=2tXla7pFfIxmrpdc-0/">Figma</a></li>
+  </ul>
+</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Clean and Simple Static Webpages]**
-<<<<<<< HEAD
-- **[Only HTML & CSS]**
-=======
-- **[Only Raw HTML & CSS]**
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
-- **[Used bootstrap CDN to use some icon]**
-- **[A figma template used to create the design]**
-- **[Flexbox and Grid used to make pagelayout]**
+- **[Key Feature 1]**    Error correction by Microverse Linter configuration
+- **[Key Feature 2]**    Responsive design to support running in any device
+- **[Key Feature 3 ]**   Portfolio added in work section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://tgemechis7.github.io/Portfolio/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING to STARTED -->
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<<<<<<< HEAD
-> Clone this repository to your local machine
+To get a local copy and running the project consider below items:
 
-To get a local copy up on your machine, use the following prerequisites.
-=======
-> Clone this repository to your local folder
-
-To get a local copy up, use the following command.
-cammonds: 
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 ### Prerequisites
 
 In order to run this project you need:
 
-Check Git is already installed and working:
+To get a local copy of my project you can use below link.
 
-```sh
- .git --version
- .node --version
-<<<<<<< HEAD
- .text editor. VS code and latest text editor possible
-=======
- .editor. VS code and latest text editor possible
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
-```
-It should return the version info with no error.
-
+"git@github.com:Jawad-Nazari/Portfolio-Project-Mobile-first.git"
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Execute this:
-
-```sh
-  git https://github.com/tGemechis7/Portfolio.git
-```
-
+- Choose a directory
+- Open a Terminal
+- write: git clone "git@github.com:Jawad-Nazari/Portfolio-Project-Mobile-first.git"
 
 ### Install
 
-Install this project with:
-
-
-Install Dependencies:
-
-```sh
-  cd your-project-folder
-  npm install
-  Sign up on formspree.oi
-```
-
+   In order to run or modify this project you need to install the following:
+   - git
+   - code editor ( VS Code Suggested )
+   - browser  (Chrome Prefered)
 
 ### Usage
 
-To run the project, execute the following command:
-
-
-Execute this:
-```sh
-<<<<<<< HEAD
-  To run the project,using Live Sever on VSCode or opend index.html directly with browser
-=======
-  To run the project,using Live Sever on VSCode or opend index.html directly with latest browser
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
-```
+This project will be used to display my portfolios:
 
 
 ### Run tests
 
-To run tests, run the following command:
+To run and test, open the below HTML file in your browser:
 
-
-Testing with Lint-checks:
-
-```sh
-  npx stylelint "**/*.{css,scss}"
-```
-
-
-### Deployment
-
-Deployed in `Github Pages`.
+- index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-<!-- Mention all of the collaborators of this project-->
+👤 **Jawad Nazari**
 
-👤 **Mahabub**
+- GitHub: [@Jawad-Nazari](https://github.com/Jawad-Nazari)
+- LinkedIn: [Jawad-Nazari](https://www.linkedin.com/in/Jawad-)
+- Twitter: [@nazari_jawad58](https://twitter.com/nazari_jawad58)
 
-- GitHub: [@tgemechis7](https://github.com/tGemechis7)
-- Twitter: [@tgemechis7](https://twitter.com/tgemechi7)
-<<<<<<< HEAD
-- LinkedIn: [@gemechis7](https://www.linkedin.com/in/gemechis7)
-=======
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gemechis-tamiru-3b3593176/)
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [1] **[gallary section will be added ]**
+- [2] **[Contact form will be added ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,13 +148,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
-<<<<<<< HEAD
-If you like my project give rate me 
-=======
-If you like my project give me 5 star 
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,23 +156,7 @@ If you like my project give me 5 star
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-I would like to thanks microvesre team
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Is this project for Microverse program?]**
-
-<<<<<<< HEAD
-  - [Yes, it is. please try to reach out them if you have any question]
-=======
-  - [Yes, it is. please try to reach out them]
->>>>>>> 4eb0b17f16306fbdca0002f7787a1cc577f7efaa
+I'd like to thank Microverse for providing this chance to enrich my experience.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -247,8 +165,6 @@ I would like to thanks microvesre team
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
