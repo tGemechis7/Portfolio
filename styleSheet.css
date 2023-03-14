@@ -641,7 +641,7 @@ header {
   .grid-item-4 {
     display: flex;
     background-image: url('images/contact-f.png');
-    background-size: 65%;
+    background-size: 60%;
     background-position-y: 8em;
     border-top-left-radius: 15%;
     background-position: top 10px right;
