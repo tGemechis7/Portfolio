@@ -13,26 +13,35 @@
     <title>Desktop version Portfolio</title>
   </head>
   <body>
-    <header>
-      <nav class="header-nav" id="header-nav">
-        <ul class="navbar-logo">
-          <li><a class="logo-link txt2" id="nav-logo">My Logo</a></li>
+   <header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">My logo</a>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#Portfolio" class="nav-link" >Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
         </ul>
-        <ul class="navbar-list">
-          <li class="mobnavbar-link"><a id="nav-toggle"class="logo-link txt2">&#9776;</a></li>
-          <li class="desknavbar-link"><a class="navbar-link">Portfolio</a></li>
-          <li class="desknavbar-link"><a class="navbar-link">About</a></li>
-          <li class="desknavbar-link"><a class="navbar-link">Contact</a></li>
-        </ul>
-      </nav>
-   </header>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
 
-    <main class="grid-container">
+
+    <main class="grid-container" >
       <section class="grid-item grid-item-1 bg-white">
         <div class="intro-container">
           <h1 class="fsw-7">I’m Gemechis <br>Glad to see you!</h1>
           <p  class="fs-20 fw-4">
-            I’m a software developer! I can help you build a product , feature
+            I’m a software developers! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don’t hestiate to
             contact me.
@@ -81,7 +90,7 @@
         </div>
 
       </section>
-      <section class="grid-item grid-item-2">
+      <section class="grid-item grid-item-2" id="Portfolio">
         <div class="work-container bg-white">
           <div class="section-img mall-30">
             <img id="workimg1"
@@ -251,7 +260,7 @@
         </div>
       </section>
 
-      <section class="grid-item grid-item-3 bg-white">
+      <section class="grid-item grid-item-3 bg-white" id="About">
         <span class="about-container">
           <div class="about-myself mall-30">
             <h1 class="fsw-7 mlr-20">
@@ -343,8 +352,8 @@
         </div>
       </span>
       </section>
-      <section class="grid-item grid-item-4 bg-white">
-        <div class="contact-container">
+      <section class="grid-item grid-item-4 bg-white" id="contact">
+        <div class="contact-container" >
           <h1 class="contact-content fsw-7 txtw mall-30">Contact Me</h1>
           <p class="contact-content contact-title mlr-20">
             If you have an application you are interested in developing, 
@@ -362,5 +371,6 @@
       </section>
     
     </main>
+    <script src="javascript.js"></script>
   </body>
 </html>
