@@ -548,9 +548,9 @@ header {
 
   .grid-item-1 {
     background-image: url('images/introductionbg.png');
-    margin-left: 0;
+    margin-left: 5px;
     border-bottom-left-radius: 0;
-    background-size: 95;
+    background-size: 95%;
     width: 100%;
   }
 
@@ -598,6 +598,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     text-align: justify;
+     
   }
 
   .input-bg {
@@ -670,6 +671,7 @@ header {
     border-top-right-radius: 50px;
     width: 100%;
     margin-left: 0;
+    padding-top: 100px;
   }
 
   .btn-more {
@@ -704,7 +706,7 @@ header {
     flex-direction: column;
     gap: 20px;
     width: 100%;
-    height: 95%;
+    height: 98.5%;
     transition: 0.3s;
     background-color: #6070ffb0;
     backdrop-filter: blur(5px);
@@ -749,8 +751,8 @@ header {
   .hamburger {
     display: block;
     cursor: pointer;
-    margin-right: 30px;
-    margin-top: 62px;
+    padding-right: 80px;
+    margin-top: 52px;
     color: blue;
   }
 
