@@ -541,9 +541,10 @@ header {
     right: 0;
     left: 0;
     background-color: white;
-    width: 100%;
+    width: 100%; 
     margin-left: 0;
     height: auto;
+    p
   }
 
   .grid-item-1 {
@@ -751,8 +752,9 @@ header {
   .hamburger {
     display: block;
     cursor: pointer;
-    /* padding-right: 80px; */
+    
     margin-top: 52px;
+    margin-right: 38px;
     color: blue;
   }
 
@@ -763,7 +765,7 @@ header {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    margin-left: 100px;
+    
     background-color: #2230d2;
   }
 
