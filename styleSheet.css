@@ -751,7 +751,7 @@ header {
   .hamburger {
     display: block;
     cursor: pointer;
-    padding-right: 80px;
+    /* padding-right: 80px; */
     margin-top: 52px;
     color: blue;
   }
