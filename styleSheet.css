@@ -503,7 +503,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  body {
+   html{
     overflow-x: hidden;
   }
 
@@ -548,7 +548,7 @@ header {
 
   .grid-item-1 {
     background-image: url('images/introductionbg.png');
-    margin-left: 5px;
+    margin-left: 20px;
     border-bottom-left-radius: 0;
     background-size: 95%;
     width: 100%;
