@@ -503,7 +503,7 @@ header {
 }
 
 @media (max-width: 768px) {
-   html{
+  html {
     overflow-x: hidden;
   }
 
@@ -541,10 +541,9 @@ header {
     right: 0;
     left: 0;
     background-color: white;
-    width: 100%; 
+    width: 100%;
     margin-left: 0;
     height: auto;
-    p
   }
 
   .grid-item-1 {
@@ -599,7 +598,6 @@ header {
     flex-direction: column;
     align-items: flex-start;
     text-align: justify;
-     
   }
 
   .input-bg {
@@ -712,8 +710,6 @@ header {
     background-color: #6070ffb0;
     backdrop-filter: blur(5px);
     padding-bottom: 500px;
-
-    
   }
 
   .nav-link {
@@ -727,15 +723,12 @@ header {
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-
     width: 100%;
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
   }
 
- 
   .nav-menu.active {
     left: 0;
   }
@@ -752,7 +745,6 @@ header {
   .hamburger {
     display: block;
     cursor: pointer;
-    
     margin-top: 52px;
     margin-right: 50px;
     color: blue;
@@ -765,7 +757,6 @@ header {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    
     background-color: #2230d2;
   }
 
