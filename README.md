@@ -159,6 +159,13 @@ Deployed in `Github Pages`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Future Features <a name="future-features"></a>
+
+- **[Add Pop up modal]**
+- **[Add CSS styling]**
+- **[Used bootstrap CDN to use some icon]**
+gi
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
