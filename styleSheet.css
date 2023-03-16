@@ -341,7 +341,7 @@ button:active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 15%;
+    border-bottom-left-radius: 14%;
     margin-bottom: 40px;
   }
 
