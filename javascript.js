@@ -106,7 +106,7 @@ const Mobiledisplay = [
   },
   {
     title: 'Multi-Post Stories',
-    image: './images/SnapshootPortfo4.png',
+    image: './images/SnapshootPortfolio5.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javascript'],
