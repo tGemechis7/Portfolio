@@ -927,6 +927,7 @@ button:active {
     width: 80%;
     margin-top: 20px;
     margin-left: 30px;
+    font-size: 17px;
     color: #172b4d;
     background-color: #fff;
     border: 1px solid #cfd8dc;
@@ -1303,6 +1304,16 @@ button:active {
   .pop_container p {
     margin-bottom: 0;
     font-size: 15px;
+  }
+
+  .contact-title {
+    color: #ebebff;
+    justify-content: center;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 5px;
+    padding-left: 10px;
   }
 
   .pop_container > .imgs img {
