@@ -1306,7 +1306,8 @@ button:active {
   }
 
   .pop_container > .imgs img {
-    width: 100%;
+    width: 311px;
+    height: 220px;
   }
 
   .top h2 {
