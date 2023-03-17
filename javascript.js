@@ -332,7 +332,7 @@ function errorThrow(input, message) {
   popup.style.left = `${input.offsetLeft}px`;
 }
 
-function checkInputs() {
+function checkInput() {
   const emailValue = email.value.trim();
 
   if (/[A-Z]/.test(emailValue)) {
@@ -346,9 +346,11 @@ form.addEventListener('submit', (e) => {
   errorBack.forEach((errorMessage) => {
     errorMessage.remove();
   });
-  checkInputs();
+  checkInput();
   const newMessage = form.querySelectorAll('.error-message');
-  if (newMessage.length === 0) {
+  if (newMessage.length === '') {
     form.submit();
+  } else {
+    e.preventDefault();
   }
 });
