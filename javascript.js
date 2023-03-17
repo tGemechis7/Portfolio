@@ -1,3 +1,5 @@
+// smooth defilement by menu link click
+
 function scrollToSection(targetId) {
   const target = document.getElementById(targetId);
   window.scrollTo({
@@ -15,129 +17,148 @@ links.forEach((link) => {
   });
 });
 
-const hamburger = document.querySelector('.hamburger');
-const navMenu = document.querySelector('.nav-menu');
+// menu content display in mobile
 
-function mobileMenu() {
-  hamburger.classList.toggle('active');
-  navMenu.classList.toggle('active');
-}
-hamburger.addEventListener('click', mobileMenu);
-const navLink = document.querySelectorAll('.nav-link');
+const hamburgerToggler = document.querySelector('.hamburger');
+const log = document.querySelector('.logo');
+const navLinksContainer = document.querySelector('.nav_links');
+const clo = document.querySelectorAll('.scroll');
+const toggleNav = () => {
+  hamburgerToggler.classList.toggle('open');
+  const ariaToggle = hamburgerToggler.getAttribute('aria-expanded') === 'true'
+    ? 'false'
+    : 'true';
+  hamburgerToggler.setAttribute('aria-expanded', ariaToggle);
+  navLinksContainer.classList.toggle('open');
+  if (ariaToggle === 'true') {
+    log.style.visibility = 'hidden';
+    clo.forEach((element) => {
+      element.addEventListener('click', () => {
+        navLinksContainer.classList.remove('open');
+        hamburgerToggler.classList.remove('open');
+        hamburgerToggler.setAttribute('aria-expanded', 'false');
+        log.style.visibility = 'visible';
+      });
+    });
+  } else {
+    log.style.visibility = 'visible';
+  }
+};
+hamburgerToggler.addEventListener('click', toggleNav);
 
-function closeMenu() {
-  hamburger.classList.remove('active');
-  navMenu.classList.remove('active');
-}
-navLink.forEach((n) => n.addEventListener('click', closeMenu));
+// My projects section set dynamicaly
+// For desktop view
+
 const worksDesktop = [
   {
     title: 'Tonic',
-    image: './images/SnapshootPortfolio1.png',
+    image: './images/desk_SnapshootPortfolio.png',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     technologies: ['html', 'css', 'bootstrap', 'Ruby'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Canopy', 'Backend dev', '2015'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Canopy', 'Backend dev', '2015'],
   },
   {
     title: 'Multi-Post Stories',
-    image: './images/SnapshootPortfolio2.png',
+    image: './images/desk2_SnapshootPortfolio.png',
     description:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     technologies: ['html', 'css', 'bootstrap', 'Ruby'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Facebook', 'Full stack', '2015'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Facebook', 'Full stack', '2015'],
   },
   {
     title: 'Facebook 360',
-    image: './images/workimg3.png',
+    image: './images/desk3_Snapshoot_Portfolio.png',
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     technologies: ['html', 'css', 'bootstrap', 'Ruby'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Facebook', 'Full stack', '2015'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Facebook', 'Full stack', '2015'],
   },
   {
     title: 'Uber Navigation',
-    image: 'images/workimg4.png',
+    image: 'images/desk4_SnapshootPortfolio.png',
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     technologies: ['html', 'css', 'bootstrap', 'Ruby'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Uber', 'Lead developer', '2018'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Uber', 'Lead developer', '2018'],
   },
 ];
 
-const Mobiledisplay = [
+// for mobile view
+
+const workMobile = [
   {
     title: 'Tonic',
-    image: './images/project1.png',
+    image: './images/mob_Portfoli1.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javascript'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Canopy', 'Backend dev', '2015'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Canopy', 'Backend dev', '2015'],
   },
   {
     title: 'Multi-Post Stories',
-    image: './images/SnapshootPortfolio3.png',
+    image: './images/mob_Portfolio2.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javascript'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Canopy', 'Backend dev', '2015'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Canopy', 'Backend dev', '2015'],
   },
   {
     title: 'Tonic',
-    image: './images/SnapshootPortfolio4.png',
+    image: './images/mob_Portfolio3.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javascript'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Canopy', 'Backend dev', '2015'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Canopy', 'Backend dev', '2015'],
   },
   {
     title: 'Multi-Post Stories',
-    image: './images/SnapshootPortfolio5.png',
+    image: './images/mob_Portfolio4.png',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     technologies: ['html', 'css', 'javascript'],
-    livelink: 'https://www.github.com/',
-    source: 'https://www.pintrest.com/',
-    feature: ['Canopy', 'Backend dev', '2015'],
+    live: 'https://www.google.com/',
+    source: 'https://www.google.com/',
+    tag: ['Canopy', 'Backend dev', '2015'],
   },
 ];
 
-function popup(obj) {
+// popup window show by clicking on see projet button
+//for desktop view
+
+function popup(arr) {
   const pop = document.createElement('div');
   pop.className = 'popupd desk_popup';
   const deskpop = document.createElement('div');
   deskpop.className = 'desk_pop_container';
-
   deskpop.innerHTML = `
         <div class="top">
-        <h2 id="namess">${obj.title}</h2>
+        <h2 id="namess">${arr.title}</h2>
         <i class="fa-solid fa-times closed" style="cursor: pointer; width: 20px;"></i>
       </div>
-      
       <div class="type tp">
-        <p class="client">${obj.feature[0]}</p>
+        <p class="client">${arr.tag[0]}</p>
         <img src="./images/circle.png" alt="">
-        <p class="service">${obj.feature[1]}</p>
+        <p class="service">${arr.tag[1]}</p>
         <img src="./images/circle.png" alt="">
-        <p class="service">${obj.feature[2]}</p>
+        <p class="service">${arr.tag[2]}</p>
       </div>
-
       <div class="imgs" id="imagess">
-        <img src=${obj.image} alt="" class="mag">
+        <img src=${arr.image} alt="" class="mag">
       </div>
       <div class="deta">
         <p class="par">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -163,30 +184,31 @@ function popup(obj) {
             <li>bootstrap</li>
         </ul>
         <div class="buttons">
-            <button class="see-live" margin-left="10px">See Live <a href=${obj.livelink}><i class="fa-brands fa-pinterest"></i></a></button>
-            <button class="see-source" class="btna">See Source <a href=${obj.source}><i class="fa-brands fa-github"></i></a></button>
-            <hr >
+            <button class="see-live" margin-left="10px">See Live <a href=${arr.live}><i class="fa-brands fa-github"></i></a></button>
+            <button class="see-source" class="btna">See Source <a href=${arr.source}><i class="fa-brands fa-github"></i></a></button>
         </div>
         </div>
       </div>
   `;
-
+  
   pop.appendChild(deskpop);
   const project = document.querySelector('.desktop-project');
-  project.appendChild(pop);
+  project.appendChild(pop); // attach to DOM inside desktop-project div
   const close = deskpop.getElementsByClassName('closed')[0];
   close.addEventListener('click', () => {
-    pop.classList.remove('desk_popup');
+    pop.classList.remove('desk_popup'); // close popup window
   });
 }
 
-function mpopup(obj) {
-  const mpop = document.createElement('div');
+// for mobile view
+
+function mpopup(arr) {
+  const mpop = document.createElement('div'); // popup container creation
   mpop.className = 'popup';
-  const mobpop = document.createElement('div');
-  mobpop.className = 'pop_container';
+  const mobpop = document.createElement('div'); // popup contain div
+  mobpop.className = 'pop_container'; // give it a class name
   mobpop.innerHTML = `<div class="top">
-  <h2 id="names">${obj.title}</h2>
+  <h2 id="names">${arr.title}</h2>
   <i class="fa-solid fa-times close popclose"></i>
 </div>
 <div class="type">
@@ -197,7 +219,7 @@ function mpopup(obj) {
   <p class="service">2015</p>
 </div>
 <div class="imgs" id="images">
-  <img src="${obj.image}" alt="" >
+  <img src="${arr.image}" alt="" >
 </div>
 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
 </p>
@@ -207,20 +229,21 @@ function mpopup(obj) {
   <li>javaScript</li>
 </ul>
 <div class="buttons">
-  <button id="see" class="btna" margin-left="10px">See Live <a href="${obj.livelink}"><i class="fa-brands fa-edge"></i></a></button>
-  <button id="source" class="btna">See Source <a href="${obj.source}"><i class="fa-brands fa-github"></i></a></button>
+  <button id="see" class="btna" margin-left="10px">See Live <a href="${arr.live}"><i class="fa-brands fa-edge"></i></a></button>
+  <button id="source" class="btna">See Source <a href="${arr.source}"><i class="fa-brands fa-github"></i></a></button>
 </div>
 `;
   mpop.appendChild(mobpop);
-  document.body.appendChild(mpop);
-
+  document.body.appendChild(mpop); // attached to the HTML Document 
   mobpop.getElementsByClassName('close')[0].addEventListener('click', () => {
-    mpop.classList.add('show');
+    mpop.classList.add('show'); // close popup window
   });
 }
 
 const mobileWork = document.querySelector('.mobile-project');
 const deskWork = document.querySelector('.desktop-project');
+
+// creation dynamicaly for each project
 
 worksDesktop.forEach((work) => {
   const item = document.createElement('div');
@@ -235,11 +258,11 @@ worksDesktop.forEach((work) => {
   div2.innerHTML = `
       <h2>${work.title}</h2>
       <div class="type">
-          <p class="client">${work.feature[0]}</p>
+          <p class="client">${work.tag[0]}</p>
           <div><img src="./images/circle.png" alt=""></div>
-          <p class="service">${work.feature[1]}</p>
+          <p class="service">${work.tag[1]}</p>
           <div><img src="./images/circle.png" alt=""></div>
-          <p class="service">${work.feature[2]}</p>
+          <p class="service">${work.tag[2]}</p>
       </div>
       <p class="description">
           ${work.description}
@@ -249,7 +272,7 @@ worksDesktop.forEach((work) => {
           <li>${work.technologies[1]}</li>
           <li>${work.technologies[2]}</li>
       </ul>
-      <button id="btn1" class="btn-action btn-more txt5 fw-5 fs-17 btna">See Project</button>
+      <button id="btn1" class="btna">See Project</button>
   `;
 
   const buttons = div2.getElementsByClassName('btna')[0];
@@ -265,27 +288,8 @@ worksDesktop.forEach((work) => {
   }
   deskWork.appendChild(item);
 });
-function openPopup() {
-  document.getElementById('boxPopup').style.display = 'block';
-}
-window.onclick = function (event) {
-  const modal = document.getElementById('boxPopup');
-  if (event.target === modal) {
-    openPopup();
-  }
-};
-function closePopup() {
-  document.getElementById('boxPopup').style.display = 'none';
-}
 
-window.onclick = function (event) {
-  const modal = document.getElementById('boxPopup');
-  if (event.target === modal) {
-    closePopup();
-  }
-};
-
-Mobiledisplay.forEach((work) => {
+workMobile.forEach((work) => {
   const item = document.createElement('div');
   item.className = 'mobile_item';
   item.innerHTML = `
@@ -293,11 +297,11 @@ Mobiledisplay.forEach((work) => {
             <div class="info_projet">
                 <h2>${work.title}</h2>
                 <div class="type">
-                    <p class="client">${work.feature[0]}</p>
+                    <p class="client">${work.tag[0]}</p>
                   <div> <img src="./images/circle.png" alt=""></div>
-                    <p class="service">${work.feature[1]}</p>
+                    <p class="service">${work.tag[1]}</p>
                   <div> <img src="./images/circle.png" alt=""></div>
-                    <p class="service">${work.feature[2]}</p>
+                    <p class="service">${work.tag[2]}</p>
                 </div>
                 <p class="description">
                 ${work.description}
@@ -307,7 +311,7 @@ Mobiledisplay.forEach((work) => {
                     <li>${work.technologies[1]}</li>
                     <li>${work.technologies[2]}</li>
                 </ul>
-                <button id="btn1" class="btn-action btn-more txt5 fw-5 fs-17 btna">See Project</button>
+                <button id="btn1" class="btna">See Project</button>
             </div>
           `;
   const buton = item.getElementsByClassName('btna')[0];
@@ -316,3 +320,65 @@ Mobiledisplay.forEach((work) => {
   });
   mobileWork.appendChild(item);
 });
+
+// form validation
+
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+
+function setErrorFor(input, message) { // function that show the error
+  const mess = document.createElement('div');
+  mess.appendChild(document.createTextNode(message));
+  mess.classList.add('error-message');
+  input.parentNode.insertBefore(mess, input.nextElementSibling);
+  mess.style.position = 'absolute';
+  mess.style.color = 'rgb(171 2 2 / 94%)';
+  mess.style.marginBottom = '5px';
+  mess.style.top = `${input.offsetTop + input.offsetHeight}px`;
+  mess.style.left = `${input.offsetLeft}px`;
+}
+
+function checkInputs() { // function that check the input for diferent constraint then call setErrorfor()
+  const emailValue = email.value.trim();
+
+  if (emailValue === '') {
+    setErrorFor(email, 'Email cannot be blank');
+  }
+  if (/[A-Z]/.test(emailValue)) {
+    setErrorFor(email, "Please don't put Uppercase in email !!!");
+  }
+}
+
+form.addEventListener('submit', (e) => { // Listen the submit button for submission
+  const errorMessages = form.querySelectorAll('.error-message');
+  errorMessages.forEach((errorMessage) => {
+    errorMessage.remove();
+  });
+  checkInputs();
+  const newErrorMessages = form.querySelectorAll('.error-message');
+  if (newErrorMessages.length === 0) {
+    form.submit();
+  } else {
+    e.preventDefault();
+  }
+});
+
+// preserve data into navigat
+
+const name = document.getElementById('name');
+const message = document.getElementById('message');
+
+const inputField = [name, email, message];
+const data = {};
+
+inputField.forEach((item) => {
+  item.addEventListener('input', () => {
+      data[item.id] = item.value;   
+    localStorage.setItem('client-data', JSON.stringify(data));
+  });
+});
+
+const dataSaved = JSON.parse(localStorage.getItem('client-data'));
+name.value = dataSaved.name;
+email.value = dataSaved.email;
+message.value = dataSaved.message;
