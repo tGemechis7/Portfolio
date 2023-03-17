@@ -320,30 +320,6 @@ Mobiledisplay.forEach((work) => {
 // form validation
 const form = document.getElementById('form_id');
 const email = document.getElementById('email');
-
-
-function checkInputs() { 
-  const emailValue = email.value.trim();
-
-  if (/[A-Z]/.test(emailValue)) {
-    errorThrow(email, "Please use lowercase only in email ");
-  }
-}
-
-form.addEventListener('submit', (e) => { 
-  const errorBack = form.querySelectorAll('.error-message');
-  e.preventDefault();
-  errorBack.forEach((errorMessage) => {
-    errorMessage.remove();
-  });
-  checkInputs();
-  const newErrorMessages = form.querySelectorAll('.error-message');
-  if (newErrorMessages.length === 0) {
-    form.submit();
-  } 
-});
-
-
 function errorThrow(input, message) {
   const popup = document.createElement('span');
   popup.appendChild(document.createTextNode(message));
@@ -355,3 +331,24 @@ function errorThrow(input, message) {
   popup.style.top = `${input.offsetTop + input.offsetHeight}px`;
   popup.style.left = `${input.offsetLeft}px`;
 }
+
+function checkInputs() {
+  const emailValue = email.value.trim();
+
+  if (/[A-Z]/.test(emailValue)) {
+    errorThrow(email, 'Please use lowercase only in email ');
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  const errorBack = form.querySelectorAll('.error-message');
+  e.preventDefault();
+  errorBack.forEach((errorMessage) => {
+    errorMessage.remove();
+  });
+  checkInputs();
+  const newMessage = form.querySelectorAll('.error-message');
+  if (newMessage.length === 0) {
+    form.submit();
+  }
+});
