@@ -318,6 +318,7 @@ Mobiledisplay.forEach((work) => {
 });
 
 // form validation
+
 const form = document.getElementById('form_id');
 const email = document.getElementById('email');
 function errorThrow(input, message) {
@@ -332,7 +333,7 @@ function errorThrow(input, message) {
   popup.style.left = `${input.offsetLeft}px`;
 }
 
-function checkInput() {
+function checkInputs() {
   const emailValue = email.value.trim();
 
   if (/[A-Z]/.test(emailValue)) {
@@ -346,11 +347,9 @@ form.addEventListener('submit', (e) => {
   errorBack.forEach((errorMessage) => {
     errorMessage.remove();
   });
-  checkInput();
+  checkInputs();
   const newMessage = form.querySelectorAll('.error-message');
-  if (newMessage.length === '') {
+  if (newMessage.length === 0) {
     form.submit();
-  } else {
-    e.preventDefault();
   }
 });
