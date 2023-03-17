@@ -355,26 +355,20 @@ form.addEventListener('submit', (e) => {
 });
 
 // preserve data in the browser
-const userName = document.getElementById('name');
-const message = document.getElementById('msg');
+const name = document.getElementById('name');
+const msg = document.getElementById('msg');
 
-let user = {
-  userName: '',
-  email: '',
-  msg: ''
-};
-
-const userInput = [name, email, msg];
-const info = {};
+const inputField = [name, email, msg];
+const data = {};
 
 inputField.forEach((item) => {
   item.addEventListener('input', () => {
-    info[item.id] = item.value;
-    localStorage.setItem('client-data', JSON.stringify(info));
+    data[item.id] = item.value;
+    localStorage.setItem('client-data', JSON.stringify(data));
   });
 });
 
 const dataSaved = JSON.parse(localStorage.getItem('client-data'));
-userName.value = dataSaved.name;
+name.value = dataSaved.name;
 email.value = dataSaved.email;
-msg.value = dataSaved.messag
+msg.value = dataSaved.msg;
