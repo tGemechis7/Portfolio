@@ -353,3 +353,22 @@ form.addEventListener('submit', (e) => {
     form.submit();
   }
 });
+
+// preserve data in the browser
+const userName = document.getElementById('name');
+const message = document.getElementById('msg');
+
+const userInput = [name, email, msg];
+const info = {};
+
+inputField.forEach((item) => {
+  item.addEventListener('input', () => {
+    info[item.id] = item.value;
+    localStorage.setItem('client-data', JSON.stringify(info));
+  });
+});
+
+const dataSaved = JSON.parse(localStorage.getItem('client-data'));
+userName.value = dataSaved.name;
+email.value = dataSaved.email;
+msg.value = dataSaved.messag
