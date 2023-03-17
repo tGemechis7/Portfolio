@@ -150,7 +150,7 @@ Deployed in `Github Pages`.
 
 <!-- Mention all of the collaborators of this project-->
 
-👤 **Mahabub**
+👤 **Gemechis**
 
 - GitHub: [@tgemechis7](https://github.com/tGemechis7)
 - Twitter: [@tgemechis7](https://twitter.com/tgemechi7)
