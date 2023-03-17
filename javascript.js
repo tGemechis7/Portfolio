@@ -358,6 +358,12 @@ form.addEventListener('submit', (e) => {
 const userName = document.getElementById('name');
 const message = document.getElementById('msg');
 
+let user = {
+  userName: '',
+  email: '',
+  msg: ''
+};
+
 const userInput = [name, email, msg];
 const info = {};
 
