@@ -362,7 +362,7 @@ const inputField = [name, email, msg];
 const data = {};
 
 inputField.forEach((item) => {
-  item.addEventListener('input', () => {
+  item.addEventListener('load', () => {
     data[item.id] = item.value;
     localStorage.setItem('client-data', JSON.stringify(data));
   });
